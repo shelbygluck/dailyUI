@@ -1,0 +1,11 @@
+div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    color: #4169E1;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+  }
