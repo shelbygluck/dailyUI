@@ -1,18 +1,29 @@
 div {
     display: flex;
-    border-style: dotted;
-    border-width: 1px;
+    margin: 4px;
+    padding: 4px;
 }
 
 .outerBox {
   flex-direction: column;
+  border-style: dotted;
+  border-width: 1px;
+  width: 700px;
+  margin-top: 20px;
 }
 
-.outerBox {
-  flex-direction: column;
+.innerBox {
+  justify-content: left;
 }
 
 .infoColumn {
   flex-direction: column;
+  border-style: dotted;
+  border-width: 1px;
+  width: 300px;
+  margin-right: 20px;
 }
 
+.lowestRow {
+  justify-content: space-between;
+}
