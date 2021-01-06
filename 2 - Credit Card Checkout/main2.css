@@ -27,3 +27,8 @@ div {
 .lowestRow {
   justify-content: space-between;
 }
+
+img {
+  height: 30%;
+  width: 30%;
+}
