@@ -1,0 +1,18 @@
+div {
+    display: flex;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+.outerBox {
+  flex-direction: column;
+}
+
+.outerBox {
+  flex-direction: column;
+}
+
+.infoColumn {
+  flex-direction: column;
+}
+
