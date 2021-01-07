@@ -1,0 +1,20 @@
+.mainSections {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    height: 300px;
+}
+
+.headlineSection {
+    background-color: skyblue;
+}
+
+.aboutSection {
+    background-color: white;
+}
+
+.featuresSection {
+    background-color: lightgray;
+}
