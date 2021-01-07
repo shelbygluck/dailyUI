@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
 .mainSections {
     display: flex;
     flex-direction: column;
@@ -5,16 +11,51 @@
 
 .section {
     height: 300px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .headlineSection {
-    background-color: skyblue;
+    background-image: linear-gradient(to top, lightgray, rgb(24, 72, 91));
 }
 
 .aboutSection {
-    background-color: white;
+    background-image: linear-gradient(to bottom, lightgray, rgb(74, 133, 125));
 }
 
 .featuresSection {
-    background-color: lightgray;
+    background-image: linear-gradient(to top, white, rgb(74, 133, 125));
+}
+
+.testimonialsSection {
+    background-image: linear-gradient(to bottom, white, #854c4a);
+
+}
+
+.companiesSection {
+    background-image: linear-gradient(to bottom, #854c4a, white);
+}
+
+.header1 {
+    font-size: 40px;
+}
+
+.header2 {
+    font-size: 20px;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    color: lightgray;
+}
+
+#name {
+    font-family: fantasy;
+    font-size: 50px;
 }
